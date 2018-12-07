@@ -1,0 +1,36 @@
+/*@keyframes spin {
+  100% {
+   transform: rotate(360deg);
+  }
+}
+.spinner {
+  width: 30px;
+  height: 30px;
+  border: 6px solid #000;
+  border-left-color: #333;
+  border-right-color: transparent;
+  border-bottom-color: #555;
+  border-radius: 100%;
+  animation: spin 600ms infinite linear;
+} */
+
+#page-preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image : url('../img/LOADINGbg.png');
+    z-index: 100500;
+}
+
+#page-preloader .spinner {
+    width: 50%;
+    height: 56%;
+    position: absolute;
+    left: 25%;
+    top: 22%;
+    background-image : url('../img/LOADING.gif');
+    background-position: center center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    
+}

@@ -1,0 +1,51 @@
+.PetCont
+{
+    background-repeat: no-repeat;
+    margin-left:300px;
+    width:62.25%;
+    height:622px;
+    padding: 1px;
+    border-right:5px groove #808080;
+    border-bottom: 5px solid #e9d8b7;
+    text-align: center;
+
+}
+.Contaunir
+{
+    margin: 80px;
+    width: 51vw;
+    height: 500px;
+    border: 10px solid  #d3bdf0;
+}
+.pet 
+{
+    z-index: -1;
+    display: flex;
+    width: 17vw;
+    height: 250px;
+    float: left;
+}
+.pethidden
+{
+    width: 100%;
+    opacity: 0;
+}
+.pethidden:hover
+{
+    transition: all 0.5s ease-in; 
+    background-color: black;
+    z-index: 10; 
+    opacity: 0.7; 
+    font-family: Modern;
+    font-size: 1.5em;
+    margin-top:60%;
+}
+.top
+{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background: none;
+    right: 2%;
+    bottom: 1%;
+}

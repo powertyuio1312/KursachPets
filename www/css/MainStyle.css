@@ -1,0 +1,437 @@
+﻿*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    background-color: #e4e4e4 ;
+}
+html
+{
+    height: 100%;
+    width: 100%;
+}
+body
+{
+    z-index: -1000;
+    width:100%;
+    height: 100%;
+    color: silver;
+    font-size: 1em;
+    font-family:Colonna MT;
+}
+.bg-img 
+{ 
+    background-position: center center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+div, h1, a, p, img
+{
+    background: none;
+}
+a
+{
+    color: #423b38 ;
+    text-decoration:none;
+    transition:all.6s ease;
+}
+a:hover
+{
+    color: #f48b8b;
+    text-decoration:none;
+    transition:all.6s ease;
+}
+a:active
+{
+    color: #7e4b6d;
+}
+#page
+{
+    min-height: 15%;
+    margin-bottom: -10px;
+}
+#top
+{
+    width: 100%;
+    height: 1000px;
+}
+header,footer
+{
+    
+    width: 58.50%;
+    margin-left: 300px;
+    border-right: 5px solid #6b32b6;
+}
+footer, #page::after
+{
+    height: 10px;
+}
+
+/*ЛОГО И МЕНЮ*/
+header
+{
+    position: fixed;
+    border-bottom: 2px solid #6b32b6;
+    padding: 2%;
+    margin-top:3px;
+    z-index:5000;
+}
+header a
+{
+color: #e9d8b7;
+}
+#logo
+{
+    font-size: 3.5em;
+}
+.headerdivider {
+    border-left: 1px solid #7c25c4;
+    background: #60179c;
+    width: 1px;
+    height: 90px;
+    position: absolute;
+    left: 327px;
+    top: 15px;
+}
+#about
+{
+    text-align: center;
+    float: right;
+    margin-right: 5%;
+    margin-top: 15px;
+}
+
+#about a
+{
+    font-size: 1.3em;
+    margin-right: 25px;
+    
+}
+nav
+{
+    font-size: 1em;
+}
+nav ul
+{
+    list-style: none;
+    position: relative;
+    float: right;
+    display: inline-table;
+    background: none;
+  }
+    nav ul li
+    {
+      float: left;
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+      background: none;
+    }
+    nav ul li:hover
+    {
+        background: rgba(0,0,0,.15);
+    }
+    nav ul li:hover > ul
+    {
+        display: block;
+    }
+    nav ul li{
+      float: left;
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+    }
+      nav ul li a
+      {
+        display: block; 
+        padding: 10px 5px;
+        color: #222;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+      nav ul ul
+      {
+        display: none;
+        background:#58319794;
+        position: absolute; 
+        top: 100%;
+        box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1);
+        border: 1px solid rgba(0,0,0,.1);
+      }
+        nav ul ul li
+        {
+            float: none; 
+            position: relative;
+        }
+          nav ul ul li a 
+          {
+            padding: 5px 15px; 
+            border-bottom: 1px solid rgba(0,0,0,.05);
+          }
+          nav ul ul ul 
+          {
+            position: absolute; 
+            left: 100%; 
+            top:0;
+          }
+
+/*ПРИВЕТСТВЕННЫЙ БЛОК*/
+.back1
+    {
+      background-repeat: no-repeat;
+      margin-left:300px;
+      width:62.25%;
+      height:622px;
+      padding: 1px;
+      border-right:5px groove #808080;
+      border-bottom: 5px solid #e9d8b7;
+      text-align: center;
+    }
+.welcom
+    {
+      margin-top: 80px;
+      margin-left: 15vw;
+      width: 30vw;
+      height: 25vh;
+      font-family: Juice ITC;
+      font-size: 10em;
+      background: #725b4f;
+      opacity: 0.5;
+      color: #ebe2d2;
+    }
+.welcom:hover
+    {
+      color: white;
+      opacity: 0.3;
+    }
+.afterWelcom
+  {
+      padding: 2%;
+      margin-top:30px;
+      margin-left: 15vw;
+      font-size:x-large;
+      font-family:Modern;
+      color: #4b3b33;
+      width:400px;
+      height:200px;
+  }
+
+/*БЛОК КРУЖОЧКИ*/
+ .curcles
+  {
+      
+      width:62.40%;
+      height: 42%;
+      background-color:  #f0ebdf;
+      margin-left: 300px;
+      border-right:5px groove #808080;
+      border-bottom: 5px solid #e9d8b7;
+      
+  }
+.curclesCont
+  {
+      display: flex;
+  }
+.CurclePhoto
+  {
+      
+      width: 20vw;
+      height: 150px;
+      border: 10px solid #d3bdf0;
+      margin: 20px;
+      padding: 10px;
+      border-radius: 50%;
+      justify-content: space-around;
+  }
+.CurclePhoto:hover
+  {
+      margin-top: 10px;
+      width: 23vw;
+      height: 160px;
+  }
+.animalsCont
+  {
+      margin-top: -15px;
+      display: flex;
+  }
+.animals
+  {
+      margin-left: 30px;
+  }
+#name
+  {
+      font-size: 2.5em;
+  }
+
+/*БЛОК СОЦ ПРОЕКТА*/
+.help
+{
+    width:62.40%;
+    height: 500px;
+    margin-left: 300px;
+    border-right:5px groove #808080;
+    position:relative;
+}
+.help h1{
+    font-size: 3em;
+    color: #423b38;
+    padding: 3%;
+}
+.help h1:hover
+{
+    font-size: 3.2em;
+    color: #312b29;
+}
+.borderHelp
+{
+    margin: 3%;
+    top: 50px;
+    right: 25px;
+    width:25vw;
+    height: 350px;
+    border:20px solid  #d3bdf0;
+    float: right;
+}
+.help p
+{
+    margin-left:  3%;
+    font-family:Modern;
+    font-size:x-large;
+    color: #4b3b33;
+}
+.donate
+{
+    font-family: Modern;
+    font-size: 3em;
+    margin-right: 15%;
+    float: right;
+    color: #312b29;
+}
+
+/*FOOTER*/
+footer
+{
+    color:  #222;;
+    border-top: 2px solid #6b32b6;
+    padding: 2%;
+    margin-bottom: 0px; 
+    height: 40%;
+    position: relative;
+    
+}
+.foo
+{
+    display: flex;
+    margin-bottom: -30px;
+}
+.FootContainer
+{
+    position: absolute;
+    display: flex;
+}
+.FootBorder
+{
+    font-size: 1.5em;
+    font-family: Modern;
+    border: 10px solid #d3bdf0;
+    margin:5% ;
+    padding: 2%;
+    height: 150px;
+    width: 20% ;
+}
+.FootBorder img
+{
+    width: 50px;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    padding: 15px; 
+}
+.Me p
+{
+    text-align: center;
+    font-family: Modern;
+    font-size: 0.7em;
+    position:absolute;
+    bottom:5%;
+    left: 40%;
+}
+
+/* SELECTION BLOCK*/
+::selection
+{
+    background: #834ccc;
+    color: #f48b8b; 
+}
+
+/* MEDIA */
+@media screen and (max-device-width: 750px)
+{
+   body, html {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    outline: none;
+   }
+
+   header, footer, .help, .back1, .curcles
+   {
+       width: 100%;
+       margin-left: 0;
+       margin-right: 0;
+       padding-left: 0;
+       padding-right: 0;   
+   }
+   
+   header
+   {
+       height: 240px;
+   }
+   #about a
+   {
+       color: #f0ebdf;
+       font-size: 3em;
+       margin-right: 40px;
+   }
+   #logo
+   {
+       color: #d4d4c9;
+       width: 100%;
+       font-size: 7em;
+   }
+   .curcles, .FootContainer
+   {
+      padding: 50px;
+   }
+   footer
+   {
+      height: 1000px;
+   }
+   .welcom
+   {
+       margin-left: 30%;
+       height: 200px;
+       width: 400px ;
+   }
+   .afterWelcom
+   {
+       font-size: 2.5em;
+       margin-left: 30%;
+   }
+   .curcles
+   {
+       height: 500px;
+   }
+   .CurclePhoto
+   {
+    width: 300px;
+    height: 300px; 
+    
+   }
+  
+   
+}
+
+    

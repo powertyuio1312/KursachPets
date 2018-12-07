@@ -1,0 +1,31 @@
+.faq
+{
+    font-family: Modern;
+    background-repeat: no-repeat;
+    margin-left:300px;
+    width:62.25%;
+    height:750px;
+    padding: 1px;
+    padding-top: 50px;
+    border-right:5px groove #808080;
+}
+.faq div
+{
+    background: none;
+    color: #635d5c; 
+    width: 45%;
+    float: left;
+    margin-left: 3%;
+    margin-bottom: 30px;
+}
+
+.faq p
+{
+    background: none ;
+    font-size: 1.5em;
+}
+.faq h1
+{
+    color: #463b38; 
+    font-size: 3em;
+}
