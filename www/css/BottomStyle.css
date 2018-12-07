@@ -6,7 +6,11 @@
     margin-left: 22.5vw;
     background: none;
 }
-
+.bottom-next:hover
+{
+    width: 45px;
+    height: 45px;
+}
 .bottom-prev {
     margin-top: 15%; 
     transform: rotate(180deg);
@@ -14,4 +18,9 @@
     height: 40px;
     width: 40px;
     background: none;
+}
+.bottom-prev:hover
+{
+    width: 45px;
+    height: 45px;
 }

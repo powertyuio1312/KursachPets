@@ -4,12 +4,11 @@
     background-repeat: no-repeat;
     margin-left:300px;
     width:62.25%;
-    height:750px;
     padding: 1px;
     padding-top: 50px;
     border-right:5px groove #808080;
 }
-.faq div
+.div1
 {
     background: none;
     color: #635d5c; 
@@ -18,7 +17,21 @@
     margin-left: 3%;
     margin-bottom: 30px;
 }
-
+.div2
+{
+    background: none;
+    color: #635d5c; 
+    width: 45%;
+    float: right;
+    margin-left: 3%;
+    margin-bottom: 30px;
+}
+.faq img
+{
+    width: 45%;
+    margin-left: 3%;
+    margin-bottom: 30px;
+}
 .faq p
 {
     background: none ;

@@ -122,9 +122,9 @@ nav ul
     nav ul li
     {
       float: left;
-      -webkit-transition: all .2s ease-in-out;
-      -moz-transition: all .2s ease-in-out;
-      transition: all .2s ease-in-out;
+      -webkit-transition: all .5s ease-in-out;
+      -moz-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
       background: none;
     }
     nav ul li:hover
@@ -137,14 +137,14 @@ nav ul
     }
     nav ul li{
       float: left;
-      -webkit-transition: all .2s ease-in-out;
-      -moz-transition: all .2s ease-in-out;
-      transition: all .2s ease-in-out;
+      -webkit-transition: all .5s ease-in-out;
+      -moz-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
     }
       nav ul li a
       {
         display: block; 
-        padding: 10px 5px;
+        padding: 15px 5px;
         color: #222;
         letter-spacing: 1px;
         text-decoration: none;
@@ -166,7 +166,7 @@ nav ul
         }
           nav ul ul li a 
           {
-            padding: 5px 15px; 
+            padding: 5px 4px; 
             border-bottom: 1px solid rgba(0,0,0,.05);
           }
           nav ul ul ul 
@@ -199,11 +199,13 @@ nav ul
       background: #725b4f;
       opacity: 0.5;
       color: #ebe2d2;
+      transition: all 0.5s ease;
     }
 .welcom:hover
     {
       color: white;
       opacity: 0.3;
+      transition: all 0.5s ease;
     }
 .afterWelcom
   {
@@ -222,7 +224,6 @@ nav ul
   {
       
       width:62.40%;
-      height: 42%;
       background-color:  #f0ebdf;
       margin-left: 300px;
       border-right:5px groove #808080;
@@ -243,12 +244,14 @@ nav ul
       padding: 10px;
       border-radius: 50%;
       justify-content: space-around;
+      transition: all 0.5s ease; 
   }
 .CurclePhoto:hover
   {
       margin-top: 10px;
       width: 23vw;
       height: 160px;
+      transition: all 0.5s ease; 
   }
 .animalsCont
   {
@@ -292,6 +295,7 @@ nav ul
     height: 350px;
     border:20px solid  #d3bdf0;
     float: right;
+    transition: all 0.5s ease;
 }
 .help p
 {
@@ -317,8 +321,6 @@ footer
     padding: 2%;
     margin-bottom: 0px; 
     height: 40%;
-    position: relative;
-    
 }
 .foo
 {
@@ -327,7 +329,6 @@ footer
 }
 .FootContainer
 {
-    position: absolute;
     display: flex;
 }
 .FootBorder
@@ -349,10 +350,10 @@ footer
 }
 .Me p
 {
+    
     text-align: center;
     font-family: Modern;
     font-size: 0.7em;
-    position:absolute;
     bottom:5%;
     left: 40%;
 }
@@ -376,7 +377,7 @@ footer
     outline: none;
    }
 
-   header, footer, .help, .back1, .curcles
+   header, footer, .help, .back1, .curcles, .curclesCont
    {
        width: 100%;
        margin-left: 0;
