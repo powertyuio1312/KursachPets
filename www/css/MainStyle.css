@@ -34,12 +34,18 @@ a
     color: #423b38 ;
     text-decoration:none;
     transition:all.6s ease;
+    -webkit-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -o-transition: all.6s ease;
 }
 a:hover
 {
     color: #f48b8b;
     text-decoration:none;
     transition:all.6s ease;
+    -webkit-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -o-transition: all.6s ease;
 }
 a:active
 {
@@ -124,6 +130,7 @@ nav ul
       float: left;
       -webkit-transition: all .5s ease-in-out;
       -moz-transition: all .5s ease-in-out;
+      -o-transition: all .5s ease-in-out;
       transition: all .5s ease-in-out;
       background: none;
     }
@@ -139,6 +146,7 @@ nav ul
       float: left;
       -webkit-transition: all .5s ease-in-out;
       -moz-transition: all .5s ease-in-out;
+      -o-transition: all .5s ease-in-out;
       transition: all .5s ease-in-out;
     }
       nav ul li a
@@ -200,12 +208,18 @@ nav ul
       opacity: 0.5;
       color: #ebe2d2;
       transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
     }
 .welcom:hover
     {
       color: white;
       opacity: 0.3;
       transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition:all 0.5s ease;
+      -o-transition: all 0.5s ease;
     }
 .afterWelcom
   {
@@ -245,6 +259,9 @@ nav ul
       border-radius: 50%;
       justify-content: space-around;
       transition: all 0.5s ease; 
+      -webkit-transition: all 0.5s ease;
+      -moz-transition:all 0.5s ease;
+      -o-transition: all 0.5s ease;
   }
 .CurclePhoto:hover
   {
@@ -252,6 +269,9 @@ nav ul
       width: 23vw;
       height: 160px;
       transition: all 0.5s ease; 
+      -webkit-transition: all 0.5s ease;
+      -moz-transition:all 0.5s ease;
+      -o-transition: all 0.5s ease;
   }
 .animalsCont
   {
@@ -296,6 +316,9 @@ nav ul
     border:20px solid  #d3bdf0;
     float: right;
     transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -o-transition: all 0.5s ease;
 }
 .help p
 {
